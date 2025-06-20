@@ -27,8 +27,7 @@ python web_to_markdown.py <URL>
 ### [`txt_link_to_md.py`](txt_link_to_md.py)
 
 This script reads a list of URLs from a specified text file (e.g., `linkler.txt`) and converts each URL's content into a separate Markdown file. It uses a similar conversion logic to `web_to_markdown.py` but is designed to process multiple links from a file.
-
-**Usage:**
+*Usage:**
 
 ```bash
 python txt_link_to_md.py <links_file.txt>
@@ -38,5 +37,3 @@ python txt_link_to_md.py <links_file.txt>
 
 1.  Use [`get_links.py`](get_links.py) to extract links from an index page and save them to `linkler.txt`.
 2.  Use [`txt_link_to_md.py`](txt_link_to_md.py) with `linkler.txt` as input to convert each link into a separate Markdown file.
-
-Alternatively, you can use [`web_to_markdown.py`](web_to_markdown.py) to convert a single URL directly to Markdown.
